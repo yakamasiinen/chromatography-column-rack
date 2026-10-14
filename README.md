@@ -98,8 +98,8 @@ plate, or if there is not enough room to lift a column over the lip.
 holes. It needs matplotlib for the font outlines.
 
 ```bash
-python column_rack.py --text "Iritani Lab"
-python column_rack.py --text "大阪大学 理学研究科" --set "text_font=Yu Gothic:bold"     # Japanese (Windows)
+python column_rack.py --text "Smith Lab John Doe"
+python column_rack.py --text "第一実験室　山田太郎" --set "text_font=Yu Gothic:bold"     # Japanese (Windows)
 ```
 
 - **Size.** By default the text is up to 10 mm, made smaller automatically if it is too long for
